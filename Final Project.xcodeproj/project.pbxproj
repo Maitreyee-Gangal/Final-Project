@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C7BFE12A8D151E00E3D88B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFE02A8D151E00E3D88B /* LoginController.swift */; };
+		45C7BFE32A8D155700E3D88B /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFE22A8D155700E3D88B /* RegisterController.swift */; };
+		45C7BFE52A8D15B400E3D88B /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFE42A8D15B400E3D88B /* ForgotPasswordController.swift */; };
+		45C7BFE72A8D160800E3D88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFE62A8D160800E3D88B /* SceneDelegate.swift */; };
+		45C7BFE92A8D168C00E3D88B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFE82A8D168C00E3D88B /* SceneDelegate.swift */; };
+		45C7BFEB2A8D16F700E3D88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFEA2A8D16F700E3D88B /* AppDelegate.swift */; };
+		45C7BFEE2A8D186300E3D88B /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFED2A8D186300E3D88B /* HomeController.swift */; };
 		7C1A18482A8BF50E00175E60 /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A18472A8BF50E00175E60 /* Final_ProjectApp.swift */; };
 		7C1A184C2A8BF51000175E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1A184B2A8BF51000175E60 /* Assets.xcassets */; };
 		7C1A184F2A8BF51000175E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1A184E2A8BF51000175E60 /* Preview Assets.xcassets */; };
@@ -19,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45C7BFE02A8D151E00E3D88B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		45C7BFE22A8D155700E3D88B /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		45C7BFE42A8D15B400E3D88B /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		45C7BFE62A8D160800E3D88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45C7BFE82A8D168C00E3D88B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45C7BFEA2A8D16F700E3D88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C7BFED2A8D186300E3D88B /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		7C1A18442A8BF50E00175E60 /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1A18472A8BF50E00175E60 /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		7C1A184B2A8BF51000175E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45C7BFEC2A8D17C300E3D88B /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				45C7BFED2A8D186300E3D88B /* HomeController.swift */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
 		7C1A183B2A8BF50E00175E60 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +86,12 @@
 				7C1A18472A8BF50E00175E60 /* Final_ProjectApp.swift */,
 				7C1A185D2A8BFAA200175E60 /* Login.swift */,
 				7C5744592A8C3F5B00366BBD /* LandingPage.swift */,
+				45C7BFEC2A8D17C300E3D88B /* LoginRegister */,
+				45C7BFE02A8D151E00E3D88B /* LoginController.swift */,
+				45C7BFE22A8D155700E3D88B /* RegisterController.swift */,
+				45C7BFE42A8D15B400E3D88B /* ForgotPasswordController.swift */,
+				45C7BFEA2A8D16F700E3D88B /* AppDelegate.swift */,
+				45C7BFE82A8D168C00E3D88B /* SceneDelegate.swift */,
 				7C1A185F2A8BFE5B00175E60 /* Pages */,
 				7C1A184B2A8BF51000175E60 /* Assets.xcassets */,
 				7C1A184D2A8BF51000175E60 /* Preview Content */,
@@ -86,6 +114,7 @@
 				7C1A18552A8BF84500175E60 /* AboutUs.swift */,
 				7C1A185B2A8BF95C00175E60 /* Trivia.swift */,
 				7C1A18602A8BFFC700175E60 /* ProfilePage.swift */,
+				45C7BFE62A8D160800E3D88B /* SceneDelegate.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -162,11 +191,18 @@
 			files = (
 				7C1A18562A8BF84500175E60 /* AboutUs.swift in Sources */,
 				7C1A18582A8BF85B00175E60 /* LenderLocator .swift in Sources */,
+				45C7BFEE2A8D186300E3D88B /* HomeController.swift in Sources */,
 				7C1A185C2A8BF95C00175E60 /* Trivia.swift in Sources */,
 				7C1A18612A8BFFC700175E60 /* ProfilePage.swift in Sources */,
 				7C1A185E2A8BFAA200175E60 /* Login.swift in Sources */,
+				45C7BFE52A8D15B400E3D88B /* ForgotPasswordController.swift in Sources */,
+				45C7BFE12A8D151E00E3D88B /* LoginController.swift in Sources */,
+				45C7BFE72A8D160800E3D88B /* SceneDelegate.swift in Sources */,
+				45C7BFEB2A8D16F700E3D88B /* AppDelegate.swift in Sources */,
 				7C57445A2A8C3F5B00366BBD /* LandingPage.swift in Sources */,
 				7C1A18482A8BF50E00175E60 /* Final_ProjectApp.swift in Sources */,
+				45C7BFE32A8D155700E3D88B /* RegisterController.swift in Sources */,
+				45C7BFE92A8D168C00E3D88B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
