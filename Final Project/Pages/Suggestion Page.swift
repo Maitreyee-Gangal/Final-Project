@@ -47,12 +47,13 @@ struct Suggestion_Page: View {
                 Text("G. E. Healthcare")
                 
             }
-            
-//            struct Suggestion_Page_Previews: PreviewProvider {
-//                static var previews: some View {
-//                    Suggestion_Page()
-//                }
-//            }
+                    
         }
     }
 }
+
+struct Suggestion_Page_Previews: PreviewProvider {
+                static var previews: some View {
+                    Suggestion_Page()
+                }
+            }

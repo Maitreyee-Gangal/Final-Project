@@ -34,6 +34,12 @@ struct LandingPage: View {
                     Text("Quiz")
                 }
             
+            Suggestion_Page()
+                .tabItem(){
+                    Image(systemName: "hand.raised.fill")
+                    Text("Suggestions")
+                }
+            
         }
     }
 }
