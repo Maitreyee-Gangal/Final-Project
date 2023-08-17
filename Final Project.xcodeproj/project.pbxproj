@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12379A372A8E614A00D679F9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A362A8E614A00D679F9 /* LoginViewModel.swift */; };
-		12379A392A8E61AD00D679F9 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A382A8E61AD00D679F9 /* RegisterViewModel.swift */; };
-		12379A3B2A8E631B00D679F9 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A3A2A8E631B00D679F9 /* UploadImage.swift */; };
-		12379A3D2A8E637200D679F9 /* FireBase_PartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A3C2A8E637200D679F9 /* FireBase_PartsApp.swift */; };
-		12379A3F2A8E63DD00D679F9 /* FireBaseMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A3E2A8E63DD00D679F9 /* FireBaseMain.swift */; };
-		12379A412A8E642A00D679F9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A402A8E642A00D679F9 /* Login.swift */; };
-		12379A432A8E643300D679F9 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A422A8E643300D679F9 /* Register.swift */; };
-		12379A452A8E644200D679F9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A442A8E644200D679F9 /* ImagePicker.swift */; };
-		12379A482A8E646A00D679F9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12379A472A8E646A00D679F9 /* Home.swift */; };
-		12379A4A2A8E65A600D679F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 12379A492A8E65A600D679F9 /* GoogleService-Info.plist */; };
 		45C7BFF02A8D98C600E3D88B /* Suggestion Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7BFEF2A8D98C600E3D88B /* Suggestion Page.swift */; };
 		45C7C0142A8E95DE00E3D88B /* Question 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7C0132A8E95DE00E3D88B /* Question 1.swift */; };
 		45C7C0162A8E961000E3D88B /* Question 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C7C0152A8E961000E3D88B /* Question 2.swift */; };
@@ -42,16 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12379A362A8E614A00D679F9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		12379A382A8E61AD00D679F9 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
-		12379A3A2A8E631B00D679F9 /* UploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
-		12379A3C2A8E637200D679F9 /* FireBase_PartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase_PartsApp.swift; sourceTree = "<group>"; };
-		12379A3E2A8E63DD00D679F9 /* FireBaseMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseMain.swift; sourceTree = "<group>"; };
-		12379A402A8E642A00D679F9 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		12379A422A8E643300D679F9 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
-		12379A442A8E644200D679F9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		12379A472A8E646A00D679F9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		12379A492A8E65A600D679F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		45C7BFEF2A8D98C600E3D88B /* Suggestion Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Suggestion Page.swift"; sourceTree = "<group>"; };
 		45C7C0132A8E95DE00E3D88B /* Question 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question 1.swift"; sourceTree = "<group>"; };
 		45C7C0152A8E961000E3D88B /* Question 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question 2.swift"; sourceTree = "<group>"; };
@@ -142,9 +122,6 @@
 		7C1A183B2A8BF50E00175E60 = {
 			isa = PBXGroup;
 			children = (
-				12379A352A8E600300D679F9 /* ViewModel */,
-				12379A342A8E5FF500D679F9 /* Model */,
-				12379A332A8E5FE500D679F9 /* View */,
 				7C1A18462A8BF50E00175E60 /* Final Project */,
 				7C1A18452A8BF50E00175E60 /* Products */,
 			);
@@ -250,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C1A184F2A8BF51000175E60 /* Preview Assets.xcassets in Resources */,
-				12379A4A2A8E65A600D679F9 /* GoogleService-Info.plist in Resources */,
 				7C1A184C2A8BF51000175E60 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,35 +12,44 @@ struct LandingPage: View {
         TabView{
             
             ProfilePage()
-                .tabItem(){
+                .tabItem(){                    
                     Image(systemName: "person.crop.circle.fill")
                     Text("My Profile")
                 }
+               
             
             AboutUs()
                 .tabItem(){
                     Image(systemName: "text.book.closed.fill")
                     Text("About Us")
                 }
+            
             LenderLocator_()
                 .tabItem(){
                     Image(systemName: "person.3.fill")
                     Text("Find a lender")
-                }
+                } .toolbar(.visible, for: .tabBar)
+            
+                
             
             Trivia()
                 .tabItem(){
                     Image(systemName: "graduationcap.fill")
                     Text("Quiz")
                 }
+                
             
             Suggestion_Page()
                 .tabItem(){
                     Image(systemName: "hand.raised.fill")
                     Text("Suggestions")
                 }
+                
+                
             
         }
+        
+       
     }
 }
 
