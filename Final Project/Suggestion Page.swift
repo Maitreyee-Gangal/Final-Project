@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Suggestion_Page: View {
     var body: some View {
-        TVStack {
+        VStack {
             Text("Suggestion for Brands")
             Text("These companies are enviormentaly friendly and use circular economy")
             HStack{
@@ -48,11 +48,11 @@ struct Suggestion_Page: View {
                 
             }
             
-            struct Suggestion_Page_Previews: PreviewProvider {
-                static var previews: some View {
-                    Suggestion_Page()
-                }
-            }
+//            struct Suggestion_Page_Previews: PreviewProvider {
+//                static var previews: some View {
+//                    Suggestion_Page()
+//                }
+//            }
         }
     }
 }
