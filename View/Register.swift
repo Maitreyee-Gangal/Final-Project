@@ -1,4 +1,4 @@
-//
+
 //  Register.swift
 //  Final Project
 //
@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct Register_: View {
-    
+
     @StateObject var registerData = RegisterViewModel()
-    
+
     var body: some View {
         VStack{
             HStack{
@@ -37,15 +37,15 @@ struct Register_: View {
                         .frame(width: 115, height: 115)
                         .clipShape(Circle())
                 }
-    
-                          
+
+
             }
             .padding(.top)
             .onTapGesture(perform: {
             registerData.picker.toggle()
             })
             HStack(spacing:15){
-                
+
                 TextField("Name", text:$registerData.name)
                     .padding()
                     .keyboardType(.numberPad)
@@ -53,9 +53,9 @@ struct Register_: View {
                     .cornerRadius(15)
             }
             .padding()
-            
+
             HStack(spacing:15){
-                
+
                 SecureField("Password", text:$registerData.bio)
                     .padding()
                     .keyboardType(.numberPad)
@@ -78,7 +78,7 @@ struct Register_: View {
                 .disabled(registerData.image_Data.count == 0 || registerData.name == "" || registerData.bio == ""? true: false)
                     .opacity (registerData.image_Data.count == 0 || registerData.name == "" || registerData.bio == ""? 0.5: 1)
             }
-           
+
             Spacer(minLength: 0)
         }
         .background(Color("bg").ignoresSafeArea(.all, edges:.all))

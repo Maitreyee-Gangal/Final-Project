@@ -11,14 +11,14 @@ import Firebase
 class RegisterViewModel: ObservableObject{
     @Published var name = ""
     @Published var password = ""
-    
+
     @Published var image_Data = Data(count:0)
     @Published var picker = false
     let ref = Firestore.firestore()
-    
+
     @Published var isLoading = false
     @AppStorage("current_status") var status = false
-    
+
     func register(){
         isLoading = true
         let uid = Auth.auth().currentUser!.uid

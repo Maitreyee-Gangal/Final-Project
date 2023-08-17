@@ -27,6 +27,8 @@ struct AboutUs: View {
             
             
         }
+        .background(Color(.red))
+        .ignoresSafeArea()
         
         
         
