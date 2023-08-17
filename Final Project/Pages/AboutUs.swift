@@ -7,12 +7,16 @@
 
 import SwiftUI
 
+
+
 struct AboutUs: View {
     var body: some View {
         
         ZStack{
             Color(hue: 0.5639, saturation: 0.72, brightness: 0.47)
                 .ignoresSafeArea()
+            
+            
             
             VStack{
                 Text("About Us")
@@ -33,7 +37,7 @@ struct AboutUs: View {
                     .cornerRadius(20)
                     .padding(EdgeInsets(top:10, leading: 30, bottom: 10, trailing: 30))
                     .foregroundColor(Color(hue: 0.5639, saturation: 0.72, brightness: 0.47))
-
+                
             }
             
         }
