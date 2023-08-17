@@ -120,7 +120,6 @@
 				7C1A18472A8BF50E00175E60 /* Final_ProjectApp.swift */,
 				7C1A185D2A8BFAA200175E60 /* Login.swift */,
 				7C5744592A8C3F5B00366BBD /* LandingPage.swift */,
-				45C7BFEF2A8D98C600E3D88B /* Suggestion Page.swift */,
 				7C1A185F2A8BFE5B00175E60 /* Pages */,
 				7C1A184B2A8BF51000175E60 /* Assets.xcassets */,
 				7C1A184D2A8BF51000175E60 /* Preview Content */,
@@ -143,6 +142,7 @@
 				7C1A18552A8BF84500175E60 /* AboutUs.swift */,
 				7C1A185B2A8BF95C00175E60 /* Trivia.swift */,
 				7C1A18602A8BFFC700175E60 /* ProfilePage.swift */,
+				45C7BFEF2A8D98C600E3D88B /* Suggestion Page.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
