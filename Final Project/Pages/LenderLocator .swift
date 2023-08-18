@@ -327,11 +327,11 @@ struct LenderLocator_: View {
                                                 .fontWeight(.bold)
                                                 .padding(.top,30)
                                             
-                                            Text("...,Canada")
+                                            Text("Ottawa,Canada")
                                                 .foregroundColor(Color("background"))
                                                 .font(.title3)
                                                 .fontWeight(.bold)
-                                                .padding(.leading,-70)
+                                                .padding(.leading,-90)
                                             
                                             
                                         }
@@ -397,13 +397,13 @@ struct LenderLocator_: View {
                                                 .font(.title3)
                                                 .fontWeight(.bold)
                                                 .padding(.top,30)
-                                                .padding(.leading,-50)
+                                                .padding(.leading,-70)
                                             
                                             Text("Quebec,Canada")
                                                 .foregroundColor(Color("background"))
                                                 .font(.title3)
                                                 .fontWeight(.bold)
-                                                .padding(.leading,-30)
+                                                .padding(.leading,-40)
                                             
                                             
                                         }
@@ -456,13 +456,13 @@ struct LenderLocator_: View {
                                                 .frame(width:50, height:50)
                                                 .foregroundColor(Color("background"))
                                                 .padding(.top,30)
-                                                .padding(.leading,-80)
+                                                .padding(.leading,-60)
                                             
                                             Image("person")
                                                 .resizable()
                                                 .frame(width:50, height:50)
                                                 .padding(.top, 33)
-                                                .padding(.leading, -80)
+                                                .padding(.leading, -60)
                                         }
                                         VStack{
                                             Text("Maitreyee Gangal")
@@ -470,13 +470,13 @@ struct LenderLocator_: View {
                                                 .font(.title3)
                                                 .fontWeight(.bold)
                                                 .padding(.top,30)
-                                                .padding(.leading,-30)
+                                                .padding(.leading,-40)
                                             
-                                            Text("...,Canada")
+                                            Text("Mississauga,Canada")
                                                 .foregroundColor(Color("background"))
                                                 .font(.title3)
                                                 .fontWeight(.bold)
-                                                .padding(.leading,-90)
+                                                .padding(.leading,-10)
                                             
                                             
                                         }
@@ -525,13 +525,13 @@ struct LenderLocator_: View {
                                                 .frame(width:50, height:50)
                                                 .foregroundColor(Color("background"))
                                                 .padding(.top,30)
-                                                .padding(.leading,-120)
+                                                .padding(.leading,-90)
                                             
                                             Image("person")
                                                 .resizable()
                                                 .frame(width:50, height:50)
                                                 .padding(.top, 33)
-                                                .padding(.leading, -120)
+                                                .padding(.leading, -90)
                                         }
                                         VStack{
                                             Text("Clara Brown")
@@ -539,13 +539,13 @@ struct LenderLocator_: View {
                                                 .font(.title3)
                                                 .fontWeight(.bold)
                                                 .padding(.top,30)
-                                                .padding(.leading,-60)
+                                                .padding(.leading,-70)
                                             
-                                            Text("...,Canada")
+                                            Text("Ottawa,Canada")
                                                 .foregroundColor(Color("background"))
                                                 .font(.title3)
                                                 .fontWeight(.bold)
-                                                .padding(.leading,-70)
+                                                .padding(.leading,-40)
                                             
                                             
                                         }
