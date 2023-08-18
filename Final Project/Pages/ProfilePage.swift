@@ -1,4 +1,4 @@
-
+    
 //  ContentView.swift
 //  profile page
 //
@@ -45,7 +45,7 @@ struct ProfilePage: View {
                     .multilineTextAlignment(.center)
                     .padding(.bottom, 200)
                     
-                Text("(Name)").font(.system(size: 20).bold())
+                Text("K Kloss").font(.system(size: 20).bold())
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
