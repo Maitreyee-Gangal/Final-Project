@@ -24,7 +24,7 @@ struct question7: View {
                 
                 VStack{
 
-                Text("A “plus sign” shaped pool placed in this river inorder to filter it.")
+                Text("A “plus sign” shaped pool placed in which river will filter the river water within its walls to provide safe, swimmable water?")
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
@@ -42,7 +42,7 @@ struct question7: View {
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                            .padding(EdgeInsets(top: 0, leading: 30, bottom: 10, trailing: 30))
                     }
                     
                     NavigationLink(destination: question8()){

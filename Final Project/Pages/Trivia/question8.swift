@@ -24,7 +24,8 @@ struct question8: View {
                 
                 VStack{
 
-                Text("When you order a takeaway, you might receive the following objects:")
+                Text("When you order a takeaway, you might receive the following objects. Which of them can be recycled?")
+                        
                     .font(.title3)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
@@ -37,35 +38,35 @@ struct question8: View {
                     NavigationLink(destination: allofthem()){
                         Text("Takeaway food container, including plastic container and paper container")
                             .padding()
-                            .font(.title3)
+                            .font(.body)
                             .fontWeight(.bold)
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                            
                     }
                     
                     NavigationLink(destination: allofthem()){
                         Text("Cutlery, including bamboo cutlery, wooden cutlery, and plastic cutlery")
                             .padding()
-                            .font(.title3)
+                            .font(.body)
                             .fontWeight(.bold)
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                            
                     }
                     
                     
                     NavigationLink(destination: allofthem()){
                         Text("The packaging bag, including non-woven bag, thermal takeaway bag, paper bag, and plastic bag")
                             .padding()
-                            .font(.title3)
+                            .font(.body)
                             .fontWeight(.bold)
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 40, trailing: 30))
+                            .padding(EdgeInsets(top: 0, leading: 00, bottom: 10, trailing: 0))
                     }
                     
                     

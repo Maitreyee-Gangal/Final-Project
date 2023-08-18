@@ -39,11 +39,11 @@ struct LandingPage: View {
                 }
                 
             
-            Suggestion_Page()
-                .tabItem(){
-                    Image(systemName: "hand.raised.fill")
-                    Text("Suggestions")
-                }
+//            Suggestion_Page()
+//                .tabItem(){
+//                    Image(systemName: "hand.raised.fill")
+//                    Text("Suggestions")
+//                }
             
             
         }

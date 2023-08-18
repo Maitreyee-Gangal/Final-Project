@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Suggestion_Page: View {
     var body: some View {
+        
+        
         VStack {
             Text("Suggestion for Brands")
             Text("These companies are enviormentaly friendly and use circular economy")

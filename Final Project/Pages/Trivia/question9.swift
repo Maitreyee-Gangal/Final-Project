@@ -24,7 +24,7 @@ struct question9: View {
                 VStack{
 
                 Text("After the power batteries of electric vehicles reach effective service lives and get removed, they can continue to be utilized in multiple fields depending on the remaining battery capacity (battery cascade utilization). Which of the following remaining battery capacity does not match with the field to reutilize it?")
-                    .font(.title3)
+                        .font(.subheadline)
                     .fontWeight(.bold)
                     .foregroundColor(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                     .multilineTextAlignment(.center)
@@ -41,7 +41,7 @@ struct question9: View {
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                            
                     }
                     
                     NavigationLink(destination: tryagain2()){
@@ -52,19 +52,19 @@ struct question9: View {
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                            
                     }
                     
                     
                     NavigationLink(destination: question10()){
                         Text("20%, Photovoltaic power station energy storage")
                             .padding()
-                            .font(.title3)
+                            .font(.subheadline)
                             .fontWeight(.bold)
                             .foregroundColor(Color(hue: 0.1167, saturation: 0.22, brightness: 0.89))
                             .background(Color(hue: 0.5028, saturation: 0.66, brightness: 0.64))
                             .cornerRadius(20)
-                            .padding(EdgeInsets(top: 10, leading: 40, bottom: 40, trailing: 40))
+                            .padding(EdgeInsets(top: 0, leading: 40, bottom: 40, trailing: 40))
                     }
                     
                     
