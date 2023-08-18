@@ -24,6 +24,7 @@ struct question2: View {
                         .fontWeight(.bold)
                         .foregroundColor(Color.black)
                     Text("How much is a transition to a circular economy")
+                        
                         .font(.title3)
                         .fontWeight(.bold)
                         .foregroundColor(.white)

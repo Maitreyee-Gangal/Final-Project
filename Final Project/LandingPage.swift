@@ -44,8 +44,7 @@ struct LandingPage: View {
                     Image(systemName: "hand.raised.fill")
                     Text("Suggestions")
                 }
-                
-                
+            
             
         }
         
